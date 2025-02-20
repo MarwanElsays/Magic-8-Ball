@@ -19,3 +19,6 @@ def get_user_question():
     if question.lower() == "exit":         
         return None         
     return question
+
+def display_response(response):
+    print("\n🔮 The Magic 8-Ball says:", response, "\n")
